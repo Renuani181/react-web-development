@@ -1,0 +1,15 @@
+
+.course-title {
+    background-color: blue;
+    font-size: 30px;
+    color: white; /* Set the default text color to white */
+    font-family:sans-serif; /* Set a default font */
+    width: 100%;
+    padding: 20px;
+
+
+   
+}
+body{
+    margin: 0px;
+}
