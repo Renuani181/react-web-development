@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="clock-container" class="clock-container">
+            31 October 2024, Thursday
+        </div>
+        <div class="Digital-time-container">
+            <div class="digital-clock-container">
+                <div id="hours-data" class="time">8</div>
+                <div class="descriptions">hours</div>
+            </div>
+            <div class="digital-clock-container">
+                <div id="minutes-data" class="time">55</div>
+                <div class="descriptions">minutes</div>
+            </div>
+            <div class="digital-clock-container">
+                <div id="seconds-data" class="time">44</div>
+                <div class="descriptions">seconds</div>
+            </div>
+        </div>
+        <div class="format-selector">
+            <label>
+                <input type="radio" name="hour-format" value="12" checked> 12-hour format
+            </label>
+            <label>
+                <input type="radio" name="hour-format" value="24"> 24-hour format
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
